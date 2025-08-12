@@ -326,6 +326,7 @@ footer .footer-left {
         grid-template-columns: 1fr;
         gap:1rem;
         align-items:start;
+        overflow-x: hidden;
       }
       .profile-card{ justify-self:center; margin-top: .4rem }
       .hero-content{ text-align:left }
@@ -335,4 +336,5 @@ footer .footer-left {
       .cards{ gap:.9rem }
       .card{ padding:1rem }
     }
+
 
