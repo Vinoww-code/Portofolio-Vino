@@ -314,97 +314,25 @@ footer .footer-left {
   }
 }
 
-@media (max-width: 768px) {
-  header {
-    flex-direction: column;
-    align-items: flex-start;
-  }
+    @media (max-width: 980px){
+      .hero-inner{ grid-template-columns: 1fr 260px; gap:1.2rem }
+      .profile-pic{ width:240px }
+    }
 
-  nav {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-  }
-
-  nav a {
-    margin: 10px 0;
-  }
-
-  .hero {
-    height: auto;
-    padding: 4rem 1rem;
-  }
-
-  .hero-content {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-
-  .i {
-    margin: 0;
-    text-align: center;
-  }
-
-  .profile-pic {
-    width: 250px;
-    height: auto;
-    margin-top: 20px;
-  }
-  .info {
-    width: 100%;
-    max-width: auto;
-  }
-
-  .card {
-    width: 100%;
-    max-width: 200px;
-    font-size: 15px;
-  }
-}
-
-@media (max-width: 480px) {
-  .hero h1 {
-    font-size: 2rem;
-    text-align: left;
-  }
-
-  .hero p {
-    font-size: 1rem;
-    text-align: left;
-  }
-
-  .btn a {
-    font-size: 1rem;
-    padding: 8px 16px;
-  }
-
-  .logo img {
-    width: 30px;
-    height: 30px;
-  }
-
-  .ig svg,
-  .wa svg,
-  .fb svg {
-    width: 28px;
-    height: 28px;
-    margin-right: 12px;
-  }
-
-  .info {
-    padding: 2rem 1rem;
-    max-width: 10px;
-  }
-    .card {
-    width: 100%;
-    max-width: 10px;
-    font-size: 10px;
-  }
-
-  footer {
-    text-align: center;
-    padding: 1rem;
-  }
-}
+    /* MOBILE: hide nav, stack hero, cards full width */
+    @media (max-width: 768px){
+      nav{ display:none } /* <<< NAV DISEMBUNYIKAN DI HP */
+      .hero-inner{
+        grid-template-columns: 1fr;
+        gap:1rem;
+        align-items:start;
+      }
+      .profile-card{ justify-self:center; margin-top: .4rem }
+      .hero-content{ text-align:left }
+      .hero h1{ font-size:2.1rem }
+      .hero p{ font-size:0.95rem }
+      .profile-pic{ width:220px }
+      .cards{ gap:.9rem }
+      .card{ padding:1rem }
+    }
 
