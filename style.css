@@ -351,6 +351,10 @@ footer .footer-left {
     height: auto;
     margin-top: 20px;
   }
+  .info {
+    width: 100%;
+    max-width: auto;
+  }
 
   .card {
     width: 100%;
@@ -403,3 +407,4 @@ footer .footer-left {
     padding: 1rem;
   }
 }
+
