@@ -328,7 +328,7 @@ footer .footer-left {
         align-items:start;
         overflow-x: hidden;
       }
-      .profile-card{ justify-self:center; margin-top: .4rem }
+      .profile-card{ display: none; }
       .hero-content{ text-align:left }
       .hero h1{ font-size:2.1rem }
       .hero p{ font-size:0.95rem }
@@ -336,5 +336,6 @@ footer .footer-left {
       .cards{ gap:.9rem }
       .card{ padding:1rem }
     }
+
 
 
