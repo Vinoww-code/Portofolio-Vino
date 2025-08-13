@@ -3,7 +3,6 @@
   padding: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
-  overflow-x: hidden;
 }
 
 body {
@@ -211,7 +210,6 @@ nav a:hover {
 
 .btn a {
   background-color: transparent;
-  overflow: hidden;
   padding: 10px 30px;
   color: #ff0000;
   text-decoration: none;
@@ -237,10 +235,6 @@ nav a:hover {
        opacity: 1;
      }
    }
-
-btn::-webkit-scrollbar {
-  display: none;
-}
 /* Info Section */
 .info {
   display: flex;
@@ -333,14 +327,20 @@ footer .footer-left {
         gap:1rem;
         align-items:start;
       }
-      .profile-card{ display: none; }
+      .profile-pic{ display: none }
       .hero-content{ text-align:left }
       .hero h1{ font-size:2.1rem }
       .hero p{ font-size:0.95rem }
-      .profile-pic{ width:220px }
+      .profile-pic{
+        width:0px;
+        margin: 0px;
+        padding: 0px;
+        align-items: center;
+      }
       .cards{ gap:.9rem }
       .card{ padding:1rem }
     }
+
 
 
 
