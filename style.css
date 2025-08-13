@@ -322,10 +322,11 @@ footer .footer-left {
     /* MOBILE: hide nav, stack hero, cards full width */
     @media (max-width: 768px){
       nav{ display:none } /* <<< NAV DISEMBUNYIKAN DI HP */
-      .hero-inner{
+      .hero{
         grid-template-columns: 1fr;
         gap:1rem;
         align-items:start;
+        backgraound-image: url(img/pp.png);
       }
       .profile-pic{ display: none }
       .hero-content{ text-align:left }
@@ -334,6 +335,7 @@ footer .footer-left {
       .cards{ gap:.9rem }
       .card{ padding:1rem }
     }
+
 
 
 
