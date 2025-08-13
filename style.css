@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 body {
@@ -326,7 +327,6 @@ footer .footer-left {
         grid-template-columns: 1fr;
         gap:1rem;
         align-items:start;
-        overflow-x: hidden;
       }
       .profile-card{ display: none; }
       .hero-content{ text-align:left }
@@ -336,6 +336,7 @@ footer .footer-left {
       .cards{ gap:.9rem }
       .card{ padding:1rem }
     }
+
 
 
 
