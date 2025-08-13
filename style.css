@@ -9,6 +9,7 @@ body {
   font-family: 'Poppins', sans-serif;
   background-color: #0F0F0F;
   color: #EDEDED;
+  overflow-x: hidden;
 }
 
 /* Sticky Navbar */
@@ -327,6 +328,10 @@ footer .footer-left {
         gap:1rem;
         align-items:start;
       }
+      .i{
+        margin-right: 0px;
+        max-width: 100%;
+      }
       .profile-pic{ display: none; }
       .hero-content{ text-align:left }
       .hero h1{ font-size:2.1rem }
@@ -335,6 +340,7 @@ footer .footer-left {
       .cards{ gap:.9rem }
       .card{ padding:1rem }
     }
+
 
 
 
