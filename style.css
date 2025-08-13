@@ -331,15 +331,10 @@ footer .footer-left {
       .hero-content{ text-align:left }
       .hero h1{ font-size:2.1rem }
       .hero p{ font-size:0.95rem }
-      .profile-pic{
-        width:0px;
-        margin: 0px;
-        padding: 0px;
-        align-items: center;
-      }
       .cards{ gap:.9rem }
       .card{ padding:1rem }
     }
+
 
 
 
