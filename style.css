@@ -322,14 +322,21 @@ footer .footer-left {
     /* MOBILE: hide nav, stack hero, cards full width */
     @media (max-width: 768px){
       nav{ display:none } /* <<< NAV DISEMBUNYIKAN DI HP */
-
-      .profile-pic{ display: none }
+      .hero-inner{
+        grid-template-columns: 1fr;
+        gap:1rem;
+        align-items:start;
+      }
+      .profile-pic{ display: none; }
       .hero-content{ text-align:left }
       .hero h1{ font-size:2.1rem }
       .hero p{ font-size:0.95rem }
+      .profile-pic{ width:220px }
       .cards{ gap:.9rem }
       .card{ padding:1rem }
     }
+
+
 
 
 
