@@ -12,7 +12,6 @@ Kunjungi websitenya di sini: [Klik untuk melihat](https://vinoww-code.github.io/
 ## 🛠️ Teknologi yang Digunakan
 - HTML5
 - CSS3
-- JavaScript (opsional kalau ada)
 
 
 ## 📬 Kontak
