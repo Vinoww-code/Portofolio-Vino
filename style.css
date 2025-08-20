@@ -14,7 +14,6 @@ body {
 
 /* Sticky Navbar */
 header {
-  position: sticky;
   top: 0;
   z-index: 999;
   background-color: #3f3d3d;
@@ -340,6 +339,7 @@ footer .footer-left {
       .cards{ gap:.9rem }
       .card{ padding:1rem }
     }
+
 
 
 
